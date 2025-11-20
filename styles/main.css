@@ -1,33 +1,84 @@
+@charset "UTF-8";
+/* Font families */
+/*Font sizes*/
+/* Headings*/
+.h1,
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.h2,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.h3,
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+}
+
+.h4,
+h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.h5,
+h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+/* Parágrafos */
+.p,
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 15vh;
+  height: 10vh;
   width: 100%;
-  border: 1px solid red;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
 }
 header .header-content {
   width: 95%;
-  border: 1px solid blue;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 header .header-content .logo-box {
-  width: 15%;
+  width: 11%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-}
-header .header-content .logo-box h1 {
-  font-size: 25px;
-  margin: 0;
 }
 header .header-content nav {
   display: flex;
   justify-content: space-between;
-  border: 1px solid greenyellow;
-  width: 20%;
+  align-items: center;
+  width: 30%;
+  height: 5vh;
+}
+header .header-content nav a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #4B5563;
+}
+header .header-content nav .btn-green-header {
+  padding: 18px 34px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: #16A34A;
+  color: #FFFFFF;
 }
 
 * {
