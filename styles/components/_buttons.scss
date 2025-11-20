@@ -11,6 +11,18 @@
     color: colors.$btn-primary-color;
 }
 
+@mixin btn-white-default{
+    padding: 18px 34px;
+    border: 1px solid colors.$color-alternative;
+    border-radius: 6px;
+    background-color: transparent;
+    font-family: typography.$font-primary;
+    font-size: typography.$font-size-p;
+    color: colors.$color-alternative;
+}
+
+
+
 .btn-green-small {
 
 }
