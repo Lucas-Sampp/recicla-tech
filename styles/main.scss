@@ -1,3 +1,8 @@
+@use "components/buttons";
+
+@use "./layout/header";
+@use "./layout/hero";
+
 * {
   margin: 0;
   padding: 0;

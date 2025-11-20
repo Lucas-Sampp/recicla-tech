@@ -1,0 +1,43 @@
+@use "../base/typography";
+@use "../base/colors";
+@use "../components/buttons";
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+
+    .header-content {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo-box {
+            width: 11%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+            height: 5vh;
+
+            a {
+                font-family: typography.$font-primary;
+                font-size: typography.$font-size-p;
+                color: colors.$color-subtitle;
+            }
+            .btn-green-header {
+                @include buttons.btn-green-default;
+            }
+        }
+    }
+}

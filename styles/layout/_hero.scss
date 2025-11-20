@@ -1,0 +1,52 @@
+@use "../base/typography";
+@use "../components/buttons";
+@use "../base/colors";
+
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+
+    .hero-text {
+        height: 35vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        h1 {
+            font-size: typography.$font-size-hero;
+        }
+
+        .hero-btns {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+
+            .btn-hero-green {
+                @include buttons.btn-green-default;
+                background-color: colors.$color-primary;
+            }
+
+            .btn-hero-white {
+                @include buttons.btn-white-default;
+            }
+
+            .btn-hero-green, .btn-hero-white {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 45%;
+            }
+        }
+    }
+
+    .hero-image {
+        img {
+            width: 500px;
+        }
+    }
+}
