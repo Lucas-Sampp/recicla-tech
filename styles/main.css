@@ -271,6 +271,42 @@ header .header-content nav .btn-green-header {
   margin-bottom: 10px;
 }
 
+.testimonials-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #16A34A;
+  border-radius: 8px;
+  width: 20%;
+  height: 100%;
+}
+.testimonials-card .stars-review {
+  gap: 0px;
+  height: 5%;
+  width: 90%;
+}
+.testimonials-card .testimonials-message {
+  height: 70%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.testimonials-card .testimonials-message p {
+  color: #4B5563;
+  font-weight: 400;
+}
+.testimonials-card .testimonials-message .user-name {
+  color: #1F2937;
+  font-weight: 700;
+}
+.testimonials-card .testimonials-message .user-role {
+  color: #4B5563;
+  font-weight: 400;
+}
+
 .products-section {
   height: 70vh;
   display: flex;
@@ -299,6 +335,37 @@ header .header-content nav .btn-green-header {
   justify-content: center;
   width: 90%;
   justify-content: space-between;
+}
+
+.testimonials-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+}
+.testimonials-section .testimonials-header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonials-section .testimonials-header h2 {
+  color: #1F2937;
+  font-weight: 700;
+}
+.testimonials-section .testimonials-header h3 {
+  color: #4B5563;
+  font-weight: 400;
+}
+.testimonials-section .testimonials-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 50%;
 }
 
 * {
