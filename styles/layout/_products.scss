@@ -1,0 +1,39 @@
+@use "../base/typography";
+@use "../base/colors";
+@use "../components/buttons";
+@use "../components/cards";
+
+.products-section {
+
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: colors.$color-background-gray;
+
+    .products-header {
+        width: 90%;
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h2 {
+            color: colors.$color-title;
+        }
+
+        h3 {
+            color: colors.$color-subtitle;
+            font-weight: 400;
+        }
+    }
+
+    .products-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        justify-content: space-between;
+    }
+}

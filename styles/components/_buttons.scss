@@ -21,8 +21,12 @@
     color: colors.$color-alternative;
 }
 
-
-
-.btn-green-small {
-
+@mixin btn-green-small{
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-family: typography.$font-primary;
+    font-size: typography.$font-size-h5;
+    background-color: colors.$btn-primary-bg;
+    color: colors.$btn-primary-color;
 }
