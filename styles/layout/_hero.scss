@@ -27,12 +27,14 @@
             justify-content: space-between;
 
             .btn-hero-green {
-                @include buttons.btn-green-default;
+                @include buttons.btn-default;
                 background-color: colors.$color-primary;
             }
 
             .btn-hero-white {
-                @include buttons.btn-white-default;
+                @include buttons.btn-default;
+                color: colors.$color-alternative;
+                background-color: transparent;
             }
 
             .btn-hero-green, .btn-hero-white {

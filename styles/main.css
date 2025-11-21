@@ -116,12 +116,14 @@ header .header-content nav .btn-green-header {
 }
 .hero .hero-text .hero-btns .btn-hero-white {
   padding: 18px 34px;
-  border: 1px solid #2563EB;
+  border: 1px solid;
   border-radius: 6px;
-  background-color: transparent;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  background-color: #21C05C;
+  color: #FFFFFF;
   color: #2563EB;
+  background-color: transparent;
 }
 .hero .hero-text .hero-btns .btn-hero-green, .hero .hero-text .hero-btns .btn-hero-white {
   display: flex;
@@ -366,6 +368,53 @@ header .header-content nav .btn-green-header {
   justify-content: space-between;
   width: 95%;
   height: 50%;
+}
+
+.invitation-section {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F3F5F8;
+}
+.invitation-section .invitation-header {
+  height: 35%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.invitation-section .invitation-header h2 {
+  color: #1F2937;
+  font-weight: 700;
+}
+.invitation-section .invitation-header h3 {
+  color: #4B5563;
+  font-weight: 400;
+}
+.invitation-section .invitation-btns {
+  width: 18%;
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+}
+.invitation-section .invitation-btns .btn-invitation-green, .invitation-section .invitation-btns .btn-invitation-white {
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  background-color: #16A34A;
+  color: #FFFFFF;
+  width: 47%;
+  font-weight: 400;
+}
+.invitation-section .invitation-btns .btn-invitation-white {
+  background-color: transparent;
+  color: #16A34A;
 }
 
 * {

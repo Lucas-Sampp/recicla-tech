@@ -36,7 +36,7 @@ header {
                 color: colors.$color-subtitle;
             }
             .btn-green-header {
-                @include buttons.btn-green-default;
+                @include buttons.btn-default;
             }
         }
     }
