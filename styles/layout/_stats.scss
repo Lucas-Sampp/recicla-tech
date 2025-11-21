@@ -1,0 +1,26 @@
+@use "../base/typography";
+@use "../base/colors";
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    background-color: colors.$color-background-gray;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 6vh;
+
+        h2 {
+            color: colors.$color-primary;
+        }
+
+        p {
+            color: colors.$color-subtitle;
+        }
+    }
+}
