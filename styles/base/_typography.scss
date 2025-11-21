@@ -5,24 +5,24 @@ $font-secondary: 'Inter', sans-serif;
 /*Font sizes*/
 $font-size-p: 16px;
 
-$font-size-h1-h2: 25px;
 $font-size-h3: 25px;
 $font-size-h4: 20px;
 $font-size-h5: 14px;
 
 $font-size-hero: 60px;
+$font-size-title: 40px;
 
 /* Headings*/
 .h1,
 h1 {
   font-family: $font-primary;
-  font-size: $font-size-h1-h2;
+  font-size: $font-size-title;
 }
 
 .h2,
 h2 {
   font-family: $font-primary;
-  font-size: $font-size-h1-h2;
+  font-size: $font-size-title;
 }
 
 .h3,
