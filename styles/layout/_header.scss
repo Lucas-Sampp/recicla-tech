@@ -17,7 +17,7 @@ header {
         justify-content: space-between;
 
         .logo-box {
-            width: 11%;
+            width: 17%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -36,7 +36,7 @@ header {
                 color: colors.$color-subtitle;
             }
             .btn-green-header {
-                @include buttons.btn-green-default;
+                @include buttons.btn-default;
             }
         }
     }

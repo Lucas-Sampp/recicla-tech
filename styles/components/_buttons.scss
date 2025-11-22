@@ -1,7 +1,7 @@
 @use "../base/typography";
 @use "../base/colors";
 
-@mixin btn-green-default{
+@mixin btn-default{
     padding: 18px 34px;
     border: 1px solid;
     border-radius: 6px;
@@ -11,18 +11,12 @@
     color: colors.$btn-primary-color;
 }
 
-@mixin btn-white-default{
-    padding: 18px 34px;
-    border: 1px solid colors.$color-alternative;
+@mixin btn-small{
+    padding: 10px 20px;
+    border: 1px solid;
     border-radius: 6px;
-    background-color: transparent;
     font-family: typography.$font-primary;
-    font-size: typography.$font-size-p;
-    color: colors.$color-alternative;
-}
-
-
-
-.btn-green-small {
-
+    font-size: typography.$font-size-h5;
+    background-color: colors.$btn-primary-bg;
+    color: colors.$btn-primary-color;
 }

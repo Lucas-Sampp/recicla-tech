@@ -1,0 +1,84 @@
+@use "../base/colors";
+
+.footer-section {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: colors.$color-background-footer;
+
+    .footer-header {
+        width: 70%;
+        height: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+
+        .footer-info {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 5%;
+
+            .logo-box {
+                padding: 0;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                img {
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 10px
+                }
+            }
+            h4 {
+                color: colors.$color-white;
+            }
+
+            p {
+
+                color: colors.$color-footer
+            }
+        }
+
+        .footer-social {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 5%;
+
+            .social-icons {
+                width: 40%;
+                display: flex;
+                justify-content: space-between;
+                height: 40%;
+            }
+        }
+
+        h4 {
+            color: colors.$color-white;
+        }
+
+        p {
+
+            color: colors.$color-footer
+        }
+    }
+
+    .footer-copyright {
+        width: 99%;
+        height: 20%;
+        color: colors.$color-footer;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: colors.$color-footer;
+        border-top: 1px solid rgba(102, 102, 102, 0.3);
+
+    }
+}

@@ -2,15 +2,17 @@
 
 @use "./layout/header";
 @use "./layout/hero";
+@use "./layout/stats";
+@use "./layout/steps";
+@use "./layout/products";
+@use "./layout/testimonials";
+@use "./layout/invitation";
+@use "./layout/footer";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-ul, ol {
-  list-style: none;
 }
 
 a {
