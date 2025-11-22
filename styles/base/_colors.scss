@@ -1,6 +1,8 @@
 $color-heading:#006aff;
 $color-title: #1F2937;
 $color-subtitle:#4B5563;
+$color-white: #FFFFFF;
+$color-footer: #9CA3AF;
 
 $color-primary:#16A34A;
 $color-secondary:#21C05C;
@@ -9,6 +11,7 @@ $color-alternative:#2563EB;
 $color-background-green:#F0FDF4;
 $color-background-gray:#F3F5F8;
 $color-background-card:#FFFFFF;
+$color-background-footer:$color-title;
 
 $btn-primary-bg:$color-primary;
 $btn-secondary-bg:$color-secondary;
